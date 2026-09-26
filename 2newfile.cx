@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    a=20;
+    b=20;
+    printf("result=%d",a>5|| a<5);
+    return 0;
+}
