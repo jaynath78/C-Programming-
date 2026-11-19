@@ -1,23 +1,12 @@
 #include <stdio.h>
 int main()
-
 {
-    int n, digit, orignal, reverse = 0 printf("enter a number:");
-    scanf("%d", &n);
-    orignal = n;
-    while (n > 0)
+    int i = 1;
+    // do while loop
+    do
     {
-        digit = n % 10;
-        reverse = reverse * 10 + digit;
-        n = n / 10;
-    }
-    if (orignal == reverse)
-    {
-        printf("pallindrome number");
-    }
-    else
-    {
-        printf("not pallindrome number:");
-    }
+        printf("%d\n", i);
+        i++;
+    } while (i <= 5);
     return 0;
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    // pallindrome number
-    int n, digit, orignal, reverse = 0;
-    printf("enter a number:");
+    // check whether pallindrome or not
+    int n, digit, orignal,reverse = 0;
+    printf("enter the number:");
     scanf("%d", &n);
     orignal = n;
     while (n > 0)
@@ -14,11 +14,11 @@ int main()
     }
     if (orignal == reverse)
     {
-        printf("pallindrome number:");
+        printf("pallondrome number");
     }
     else
     {
-        printf("not pallindrome number:");
+        printf("not pallindrome");
     }
     return 0;
 }
